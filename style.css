@@ -1,0 +1,507 @@
+html{
+    font-family: "Montserrat";
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+body{
+margin: 0;
+}
+
+#navbar{
+    background-color: #02A28F;
+    padding: 0.9rem 9.3rem;
+    height: 4.3rem;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 9.3rem;
+    
+    
+}
+#navbar-text{
+    font-size: 2.25rem;
+    color: #FFFFFF;
+}
+
+#container-banner{
+    margin-left: 7.5rem;
+    background: linear-gradient(to bottom, rgba(102, 102, 102, 0) 0%, #000000 100%),url(imagens-banner.svg/predios.jpg);
+    height: 24.75rem;
+    width: 46.5rem;
+    background-size: cover;
+    border-radius: 0.6rem 0.6rem 0.6rem;
+    margin-top: 2.5rem;  
+}
+
+#text-banner{
+
+    color: #FFFFFF;
+    position: relative;
+    top: 75%;
+    padding-left:1.25rem;
+    padding: auto;
+    line-height: 0.2;
+}
+#text-banner h1 {
+    font-size: 2rem;
+}
+#text-banner p {
+    font-size: 1rem;
+}
+
+
+#navbar-frame{
+    margin-top: 1.5rem;
+    width: 46.5rem;
+    height: 3.5rem;;
+    background-color: #02A28F;
+    margin-left: 7.5rem;
+    color:#FFFFFF;
+    border-radius: 0.6rem 0.6rem 0.6rem 0.6rem;
+    display: flex;
+    align-items: center;
+}
+#navbar-frame h2 {
+    margin-left: 1.25rem;
+    font-size: 1.25rem;
+}
+#navbar-frame p {
+    margin-left: 25rem;
+    font-size: 0.8rem;
+} 
+#frame-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    margin: 0.6rem;
+    width: 46.5rem;
+    margin-left: 7.5rem;
+}
+
+.post-frame{
+    padding: 0.9rem;
+}
+.frame{
+    background-color: #FFFFFF;
+    box-shadow: 0.6rem 0.6rem 0.6rem 0.6rem  #0000001A;
+    gap: 15px;
+    border-radius: 0.6rem 0.6rem 0.6rem 0.6rem;
+    width: 22.5rem;
+    height: 24.75rem;
+    overflow: hidden;
+    margin-top: 3.1rem;
+    margin: 0;
+    text-align: left;
+}
+
+.imagens-frame{
+    width: 100%;
+    height:auto;
+    object-fit: cover;
+}
+
+.blue{
+    color: #02A28F;
+    font-size: 0.8rem;
+    margin: 0;
+    margin-bottom: 0.6rem;
+    margin-top: -0.6rem
+}
+.frame h3{
+    font-size: 1.25rem;
+    margin: 0;
+    margin-bottom: 0.6rem;
+}
+.frame p {
+    margin: 0;
+    font-size: 0.8rem;
+}
+.autor-frame{
+    color: #616161;
+    font-size: 0.8rem;
+    margin: 0;
+    margin-bottom: 0.6rem;
+}
+#data{
+    color: #616161;
+    margin: 0;
+    font-size: 0.8rem;
+    margin-top: 1.9rem;
+}
+.data{
+    color: #616161;
+    margin: 0;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+}
+
+#container-posts{
+    width: 22.5rem;
+    height: 24.75rem;
+    top: 7.5rem;
+    left: 57.75rem;
+    gap: 0px;
+    border-radius: 0.6rem;
+    margin-left: 55.6rem;
+    margin-top: -40.7rem;
+    
+    
+}
+#nvbar-posts{
+
+    background-color: #02A28F;
+    border-radius: 0.6rem 0.6rem 0.6rem 0.6rem;
+    width:22.5rem ;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    box-shadow: 0rem 0.6rem 0.6rem 0rem #0000001A;
+    color: #FFFFFF;
+}
+.post-content p {
+    font-size: 0.75rem;
+    color: #616161;
+}
+#nvbar-posts h2 {
+    margin-left: 1.25rem;
+    font-size: 1.25rem;
+}
+#posts-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+   
+    
+}
+.post-item{
+    box-shadow: 0.6rem 0.6rem 0.6rem 0.6rem  #0000001A;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 0.6rem 0.6rem 0.6rem 0.6rem;
+    width: 22.5rem;
+    height: 6rem;
+    top: 19rem;
+
+
+}
+.imagens-posts{
+    width: 8.25rem;
+    height: 4.3rem;
+    object-fit: cover;
+    margin-left: 0.6rem;
+}
+.post-content h4 {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: -1.8rem;
+}
+.post-content p {
+    margin: 0;
+    font-size: 0.7rem;
+}
+
+
+#navbar-category{
+    background-color: #02A28F;
+    border-radius: 0.6rem 0.6rem 0.6rem 0.6rem;
+    width:22.5rem ;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    box-shadow: 0rem 0.6rem 0.6rem 0rem #0000001A;
+    color: #FFFFFF;
+}
+#navbar-category h2 {
+    margin-left: 1.25rem;
+    font-size: 1.25rem;
+}
+.number{
+    margin-left: 21.25rem;
+    margin-top: -1.8rem;
+    font-size: 1rem;
+    color: #616161;
+}
+.label{
+    font-size: 1rem;
+    color: #616161;
+}
+#side-categorys{
+    margin-left: 56rem ;
+    margin-top: -55.3rem;
+}
+.footer{
+    background-color: #02A28F;
+    height: 3rem;
+    margin-top: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#text-footer{
+    font-size: 0.8rem;
+    color: #FFFFFF;
+}
+@media only screen and (max-width:768px) {
+  
+    
+
+    #navbar{
+        background-color: #02A28F;
+        width:100%;
+        height: 4.3rem;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+        
+    }
+    #navbar-text{
+    
+        font-size: 1.5rem;
+        color: #FFFFFF;
+    }
+    
+    #container-banner{
+        
+        background: linear-gradient(to bottom, rgba(102, 102, 102, 0) 0%, #000000 100%),url(imagens-banner.svg/predios.jpg);
+        height: 24.75rem;
+        width: 23rem;
+        background-size: cover;
+        border-radius: 0.6rem 0.6rem 0.6rem;
+        margin-top: 2.5rem;
+        margin-left: 22rem;
+        
+          
+    }
+    
+    #text-banner{
+    
+        color: #FFFFFF;
+        position: relative;
+        top: 60%;
+        padding-left:1.25rem;
+        padding: auto;
+        line-height: 1;
+    }
+    #text-banner h1 {
+        font-size: 1.5rem;
+    }
+    
+    
+    #navbar-frame{
+        margin-top: 1.5rem;
+        width: 23rem;
+        height: 2.5rem;;
+        background-color: #02A28F;
+        color:#FFFFFF;
+        border-radius: 0.6rem 0.6rem 0.6rem 0.6rem;
+        display: flex;
+        align-items: center;
+        margin-left: 22rem;
+    }
+    #navbar-frame h2 {
+        margin-left: 1.25rem;
+        font-size: 1.25rem;
+    }
+    #navbar-frame p {
+        margin-left: 2rem;
+        font-size: 0.8rem;
+    } 
+    #frame-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.25rem;
+        margin: 0.6rem;
+        width: 46.5rem;
+        margin-left: 22rem;
+        
+        
+    }
+    
+    .post-frame{
+        padding: 0.9rem;
+    }
+    .frame{
+        background-color: #FFFFFF;
+        box-shadow: 0.6rem 0.6rem 0.6rem 0.6rem  #0000001A;
+        gap: 15px;
+        border-radius: 0.6rem 0.6rem 0.6rem 0.6rem;
+        width: 22.5rem;
+        height: 24.75rem;
+        overflow: hidden;
+        margin-top: 3.1rem;
+        margin: 0;
+        text-align: left;
+    }
+    
+    .imagens-frame{
+        width: 100%;
+        height:auto;
+        object-fit: cover;
+    }
+    
+    .blue{
+        color: #02A28F;
+        font-size: 0.8rem;
+        margin: 0;
+        margin-bottom: 0.6rem;
+        margin-top: -0.6rem
+    }
+    .frame h3{
+        font-size: 1.25rem;
+        margin: 0;
+        margin-bottom: 0.6rem;
+    }
+    .frame p {
+        margin: 0;
+        font-size: 0.8rem;
+    }
+    .autor-frame{
+        color: #616161;
+        font-size: 0.8rem;
+        margin: 0;
+        margin-bottom: 0.6rem;
+    }
+    #data{
+        color: #616161;
+        margin: 0;
+        font-size: 0.8rem;
+        margin-top: 1.9rem;
+    }
+    .data{
+        color: #616161;
+        margin: 0;
+        font-size: 0.8rem;
+        margin-top: 1.5rem;
+    }
+
+    #container-posts{
+        width: 23rem;
+        height: 24.75rem;
+        top: 7.5rem;
+        gap: 0px;
+        border-radius: 0.6rem ;
+        margin-left:22rem;
+        
+    
+        
+    }
+    #nvbar-posts{
+    
+    
+        background-color: #02A28F;
+        border-radius: 0.6rem;
+        width:22.5rem ;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.25rem;
+        box-shadow: 0rem 0.6rem 0.6rem 0rem #0000001A;
+        color: #FFFFFF;
+    }
+    .post-content p {
+        font-size: 0.75rem;
+        color: #616161;
+    }
+    #nvbar-posts h2 {
+        margin-left: 1.25rem;
+        font-size: 1.25rem;
+    }
+    #posts-list{
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+       
+        
+    }
+    .post-item{
+        box-shadow: 0.6rem 0.6rem 0.6rem 0.6rem  #0000001A;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        border-radius: 0.6rem 0.6rem 0.6rem 0.6rem;
+        width: 22.5rem;
+        height: 6rem;
+        top: 19rem;
+    
+    
+    }
+    .imagens-posts{
+        width: 8.25rem;
+        height: 4.3rem;
+        object-fit: cover;
+        margin-left: 0.6rem;
+    }
+    .post-content h4 {
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-top: -1.8rem;
+    }
+    .post-content p {
+        margin: 0;
+        font-size: 0.7rem;
+    }
+
+
+    #navbar-category{
+        background-color: #02A28F;
+        border-radius: 0.6rem 0.6rem 0.6rem 0.6rem;
+        width:22.5rem ;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.25rem;
+        box-shadow: 0rem 0.6rem 0.6rem 0rem #0000001A;
+        color: #FFFFFF;
+    }
+    #navbar-category h2 {
+        margin-left: 1.25rem;
+        font-size: 1.25rem;
+    }
+    .number{
+        margin-left: 21.25rem;
+        margin-top: -1.8rem;
+        font-size: 1rem;
+        color: #616161;
+    }
+    .label{
+        font-size: 1rem;
+        color: #616161;
+    }
+    #side-categorys{
+        margin-left:22rem;
+        margin-top:28rem;
+    }
+    .footer{
+        width: 100%;
+        background-color: #02A28F;
+        height: 3rem;
+        margin-top: 25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #text-footer{
+        font-size: 0.8rem;
+        color: #FFFFFF;
+        margin-left: 19rem;
+    }
+    
+    
+    
+}
+
+
+
+
